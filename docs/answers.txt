@@ -1,0 +1,17 @@
+a. On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+b. 6 git rev-list --all --count
+
+c. Date:   Thu Jan 10 16:45:38 2019 -0500
+git log .gitignore
+
+d. Mention two reasons why branches are used in a Git repository
+
+e. git log states all changes that has been done in the repository aswell as who has made the changes and what time
+
+git status only checks to see if the files are currently up to date with the files in the repository.
+
+f.
