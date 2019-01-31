@@ -22,7 +22,7 @@ public:
 	//the 10 hitpoints is arbitrary as it will be changed when the random number generatr is created
     CrazyRandomSword() : Weapon("Crazy Random Sword", 10.0) {
 	srand(time(NULL)); //sets random seed
-	hitPoints = rand() 94 +7; //7-94
+	hitPoints = rand()%94 +7; //7-94
 
 
 	}
