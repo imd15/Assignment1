@@ -9,9 +9,9 @@
 
 
 double CrazyRandomSword::hit(double armor){
-	int numOfArmorIgnored = rand()%(armor/3 -1)+2
+	int numOfArmorIgnored = rand()%(armor/3 -1)+2;
 	
-	double damage = hitPoints - numOfArmorIgnored
+	double damage = hitPoints - numOfArmorIgnored;
     
 	if(damage < 0){
         return 0;
