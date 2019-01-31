@@ -14,7 +14,7 @@
 #define CRAZYRANDOMSWORD_H
 
 /**
- * Defines the behavior of a Simple Hammer (hitpoint = 25, ignores if less than 30 
+ * Defines the behavior of a Simple Hammer (hitpoint = Random, ignores 2-7 
  * armor points)
  */
 class CrazyRandomSword : public Weapon {
