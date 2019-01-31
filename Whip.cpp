@@ -13,11 +13,12 @@ double Whip::hit(double armor){
 	double damage;
 	if (armor < 20)
 	{
-	damage = hitPoints*2;
+		damage = (hitPoints*2) - armor;
     }
 	else
-		damage = hitPoints
-	
+	{
+		damage = hitPoints - armor;
+	}
 	if(damage < 0){
         return 0;
     }

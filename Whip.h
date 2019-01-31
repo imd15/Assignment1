@@ -17,13 +17,7 @@
  */
 class Whip : public Weapon {
 public:
-	//the 10 hitpoints is arbitrary as it will be changed when the random number generatr is created
-    Whip() : Weapon("Whip", 10.0) {
-	
-	hitPoints = 10;
-
-
-	}
+    Whip() : Weapon("Whip", 10.0) {	}
 
     virtual ~Whip() {};
 
