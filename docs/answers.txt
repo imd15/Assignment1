@@ -27,18 +27,25 @@ h.
 	This makes it such that code doesnt have to be copy and pasted into each Class and can put it all in one
 	place.
 	
-	Polymorphism:  
+	Polymorphism:  Pretty much objects will share the same ideology, but then branch off from this ideology to implement.
+	their own unique ways. An example would be how a basketball, baseball, and football are all balls, but one would not
+	throw each of them the same way. if one were to grab them from a bin, you would throw each one differently 
 	
-	Encapsulation:
-
+	Encapsulation: Is grouping data with the functions/methods that will manipulate the data. The main use for encapsulation
+	is to hide the data that is being using within a class and hiding how it is implemented.. This allows a developer to changes
+	the structure of a class, but most importantly not affect any code that relies on the class being changed
+	
 i. The main difference betweent he two is how the merging is managed. In the Dictator and Lieutenant method,
 Only the Dictator can push and commit to the master repository. Developers push to their respective Lieutenant
 repositories, then the Lieutenant will merge what has been pushed and then they will push the the Dictators 
 repository. where the Dictator merges everything to then push to the central repository. Integration is practically
-the same as the dictator and Lieutenant method, However, the 'Lieutenant' role is comepletely cut and Dictator role
+the same as the dictator and Lieutenant method, However, the 'Lieutenant' role is completely cut and Dictator role
 is taken over by the Integration manager. then the manager will pull from the devs repositories and merge
 
 j.By using the Dictator and Lieutenant method, this creates a heirarchy in which the software code which is being
 developed is checked in steps. and everything will be merged in steps instead of having to pull from many different
 repositories and merge them in one go. Centralized work flow would be extremely inefficient, as there would be no
 order to who would be allowed to push into the main repository.
+
+5. polymorphism, since all the weapons are technically weapons and call the hit() class, but each weapon does its 
+own thing specifically.
